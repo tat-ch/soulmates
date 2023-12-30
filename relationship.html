@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search relationship type SOULMATES</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <section class="section relationship">
+      <div class="container relationship__container">
+        <div class="header relationship__header">
+          <a href="#" class="header__back">
+            <img src="img/icons/arrow-left.svg" alt="Вернуться назад" />
+          </a>
+          <div class="header__logo"></div>
+          <button class="header__close">
+            <img src="img/icons/close.svg" alt="Close" />
+          </button>
+        </div>
+        <form action="" class="form form__stretch relationship__form">
+          <div class="wrapper relationship__wrapper">
+            <h2>Какие отношения ты сейчас ищешь?</h2>
+            <div class="relationship__list">
+              <input
+                id="long-term"
+                type="radio"
+                name="relationship"
+                class="relationship__input"
+              />
+              <label for="long-term" class="relationship__label"
+                ><img src="img/icons/relation-long.svg" alt="Долгосрочные">Долгосрочные</label
+              >
+              <input
+                id="long-short-term"
+                type="radio"
+                name="relationship"
+                class="relationship__label"
+              />
+              <label for="long-short-term" class="relationship__label"
+                ><img src="img/icons/relation-long-short.svg" alt="Долго- или краткосрочные">
+                Долго- или краткосрочные</label
+              >
+              <input
+                id="short-term"
+                type="radio"
+                name="relationship"
+                class="relationship__input"
+              />
+              <label for="short-term" class="relationship__label"
+                ><img src="img/icons/relation-short.svg" alt="Краткосрочные">Краткосрочные</label
+              >
+              <input
+                id="have-fun"
+                type="radio"
+                name="relationship"
+                class="relationship__input"
+              />
+              <label for="have-fun" class="relationship__label"
+                ><img src="img/icons/relation-fun.svg" alt="Просто повеселиться">Просто повеселиться</label
+              >
+              <input
+                id="friends"
+                type="radio"
+                name="relationship"
+                class="relationship__input"
+              />
+              <label for="friends" class="relationship__label"
+                ><img src="img/icons/relation-friends.svg" alt="Найти друзей">Найти друзей</label
+              >
+              <input
+                id="deciding"
+                type="radio"
+                name="relationship"
+                class="relationship__input"
+              />
+              <label for="deciding" class="relationship__label"
+                ><img src="img/icons/relation-deciding.svg" alt="Пока еще определяюсь">Пока еще определяюсь</label
+              >              
+            </div>
+          </div>
+          <button class="btn relationship__btn">Далее</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

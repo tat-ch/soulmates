@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search distance SOULMATES</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <section class="section distance">
+      <div class="container distance__container">
+        <div class="header distance__header">
+          <a href="#" class="header__back">
+            <img src="img/icons/arrow-left.svg" alt="Вернуться назад" />
+          </a>
+          <div class="header__logo"></div>
+          <button class="header__close">
+            <img src="img/icons/close.svg" alt="Close" />
+          </button>
+        </div>
+        <form action="" class="form form__stretch distance__form">
+          <div class="wrapper distance__wrapper">
+            <h2>Как далеко ты ищешь?</h2>
+            <p class="subtitle">
+                Выбери диапазон расстояния до твоей желаемой пары
+            </p>
+            <div class="range__info">
+              <span class="range__info__name">Расстояние</span>
+              <span class="range__info__nombre">80 км</span>
+            </div>
+
+            <div class="box__range distance__range">
+            <input            
+              type="range"
+              id="distance-1"
+              min="18"
+              max="60"
+              value="25"
+              name="range"
+              step="1"
+              class="range__input range__input--min"
+            />
+            <input
+            type="range"
+            id="distance-2"
+            min="18"
+            max="60"
+            value="35"
+            name="range"
+            step="1"
+            class="range__input range__input--max"
+          />
+        </div>
+        <p class="text__min__center">Расстояние можно изменить позже в Настройках</p>
+          </div>
+          <button class="btn distance__btn">Далее</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

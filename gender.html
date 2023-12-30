@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account gender SOULMATES</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <section class="section gender">
+      <div class="container gender__container">
+        <div class="header gender__header">
+          <a href="#" class="header__back">
+            <img src="img/icons/arrow-left.svg" alt="Вернуться назад" />
+          </a>
+          <div class="header__logo"></div>
+          <button class="header__close">
+            <img src="img/icons/close.svg" alt="Close" />
+          </button>
+        </div>
+        <form action="" class="form form__stretch gender__form">
+          <div class="wrapper gender__wrapper">
+            <h2>Какой твой пол?</h2>
+            <div class="inputs__row">
+              <div class="inputs__item">
+                <input
+                  id="man"
+                  type="radio"
+                  name="gender"
+                  class="input radio__input gender__input"
+                />
+                <label for="man" class="radio__label">Я мужчина</label>
+              </div>
+              <div class="inputs__item">
+                <input
+                  id="woman"
+                  type="radio"
+                  name="gender"
+                  class="input radio__input gender__input"
+                />
+                <label for="woman" class="radio__label">Я женщина</label>
+              </div>
+            </div>
+
+            <div class="checkbox gender__checkbox">
+              <input
+                type="checkbox"
+                id="gender-show"
+                name="gender-show"
+                value="gender-show"
+                class="checkbox__input gender__checkbox__input"
+              />
+              <label for="gender-show" class="gender__checkbox__label">
+                Показывать пол в профиле
+              </label>
+            </div>
+          </div>
+          <button class="btn gender__btn">Далее</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
