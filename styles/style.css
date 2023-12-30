@@ -201,7 +201,7 @@ input:hover {
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
   cursor: pointer;
-  margin: auto auto 0;
+  margin: 0 auto;
 }
 .btn:hover,
 .btn:active,
@@ -265,7 +265,7 @@ input:hover {
 .main__title__top,
 .main__title__middle {
   font-family: "OpenSans-Bold", "Arial", "sans-serif";
-  color: var(--title);
+  color: var(--white);
   text-shadow: 0px 4px 4px rgba(30, 30, 30, 0.2);
   font-size: 2.8rem;
   font-weight: 700;
@@ -306,6 +306,8 @@ input:hover {
   left: 0;
   right: 0;
 }
+
+/*------ PAGES -----*/
 
 .header {
   margin-top: 40px;
@@ -407,7 +409,6 @@ input:hover {
   justify-content: center;
   margin: 0 auto;
 }
-
 .inputs__item {
   display: flex;
   flex-direction: column;
@@ -437,6 +438,7 @@ input:hover {
 
 
 .verification__input {
+  width: calc(25% - 16px);
   max-width: 56px;
   padding: 20px;
   margin-bottom: 0;
@@ -572,7 +574,6 @@ input[type="checkbox"] {
 .gender__checkbox__input:checked + label::before {
   background-image: url(../img/icons/check.svg);
 }
-
 .photos__subtitle {
   text-align: left;
 }
@@ -713,6 +714,7 @@ input[type="file"] {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
+
 /*--- SEARCH AGE, DISTANCE, RELATIONSHIP TYPE ---*/
 
 .age, .distance, .relationship {
@@ -855,7 +857,7 @@ input[type="range"] {
 }
 
 
-
+/*--- CHAT--*/
 
 
 
@@ -1093,6 +1095,10 @@ input[type="range"] {
     background-position: center top;
     margin-bottom: 0;
   }
+}
+@media (min-height: 700px)  {
+.form__stretch  {
+  padding-bottom: 80px;
 }
 @media (min-height: 850px)  {
   .form__stretch {
