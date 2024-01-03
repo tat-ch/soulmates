@@ -1011,7 +1011,7 @@ input[type="range"] {
 
 .chats,
 .chat {
-  background-image: url(../img/bg/bg-6-min.jpg);
+  background-image: url(../img/bg/bg-5-min.jpg);
 }
 .chats__items {
   padding: 8px 16px;
@@ -1057,7 +1057,6 @@ input[type="range"] {
   align-items: center;
   margin-bottom: 4px;
 }
-
 .chats__item__name {
   color: var(--title);
   max-width: 140px;
@@ -1105,9 +1104,6 @@ input[type="range"] {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-
-.chat {
-}
 .chat__header__img {
   flex-shrink: 0;
   width: 48px;
@@ -1120,19 +1116,8 @@ input[type="range"] {
   overflow: hidden;
   margin-right: 8px;
 }
-
 .chat__container {
   min-height: 100%;
-}
-
-.chat__header {
-}
-.header__btn {
-}
-.header__back {
-}
-
-.chat__header__title {
 }
 .chat__header__name {
   font-size: 0.9rem;
@@ -1495,7 +1480,7 @@ input[type="range"] {
   }
   .chats,
   .chat {
-    background-image: url(../img/bg/bg-6-md.jpg);
+    background-image: url(../img/bg/bg-5-md.jpg);
   }
 }
 
