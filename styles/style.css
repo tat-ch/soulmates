@@ -1447,7 +1447,11 @@ input[type="range"] {
     font-size: 0.8rem;
     line-height: 1.3;
   }
+  .chats__item, .chat__item {
+    font-size: 1rem;
+  }
   .chat__input {
+    font-size: 1rem;
     margin-bottom: 0;
   }
 }
