@@ -3,47 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats SOULMATES</title>
+    <title>Chat SOULMATES</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <section class="section chats">
-      <div class="container chats__container">
-        <div class="header chats__header">
+    <section class="section chat">
+      <div class="container chat__container">
+        <div class="header chat__header">
           <button class="header__btn header__back"></button>
-          <div class="header__title">Чаты</div>
+          <div class="chat__header__img">
+            <img src="img/photos/photo-min-1.jpg" alt="" class="" />
+          </div>
+          <div class="chat__header__title">
+            <h3 class="chat__header__name">Алиса</h3>
+            <span class="text__min chat__header__info">offline 14:00</span>
+          </div>
           <div class="header__buttons">
-            <button class="header__btn header__notifications"></button>
-            <button class="header__btn header__settings"></button>
+            <button class="chat__header__btn chat__header__phone"></button>
+            <button class="chat__header__btn chat__header__video"></button>
+            <button class="chat__header__btn chat__header__more"></button>
           </div>
         </div>
-        <div class="wrapper chats__wrapper">
 
-      </div>
-      <div class="nav">
-        <div class="container">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#" class="nav__item__link nav__item__logo"></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__item__link nav__item__search active"></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__item__link nav__item__likes">
-                <span class="nav__item__nombre">1</span></a
-              >
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__item__link nav__item__chats active"></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__item__link nav__item__user"></a>
-            </li>
-          </ul>
+        <div class="chat__items">
+          <div class="chat__item chat__item__in">
+            <div class="chat__item__message">
+              je rire comme une baleine, mais il n’y a pas de quoi
+            </div>
+            <div class="chat__item__info">
+              <span class="chat__item__time">21:30</span>
+            </div>
+          </div>
+          <div class="chat__item chat__item__out">
+            <div class="chat__item__message">
+              J’espère que tu va l’aimer autant que moi:)
+            </div>
+            <div class="chat__item__info">
+              <span class="chat__item__time">21:40</span>
+              <div class="chat__item__ico viewed"></div>
+            </div>
+          </div>
+          <div class="chat__item chat__item__out">
+            <div class="chat__item__message">Très cordialement</div>
+            <div class="chat__item__info">
+              <span class="chat__item__time">23:34</span>
+              <div class="chat__item__ico sent"></div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="chat__footer">
+        <form action="" class="container chat__form">
+          <input
+            type="text"
+            class="input chat__input"
+            placeholder="Write your message..."
+          />
+          <button class="chat__btn"></button>
+        </form>
       </div>
     </section>
   </body>
