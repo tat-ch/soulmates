@@ -3,24 +3,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search relationship type SOULMATES</title>
+    <title>Profile SOULMATES</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <section class="section relationship">
-      <div class="container relationship__container">
-        <div class="header relationship__header">
-          <a href="#" class="header__back">
-            <img src="img/icons/arrow-left.svg" alt="Вернуться назад" />
-          </a>
-          <div class="header__logo"></div>
-          <button class="header__close">
-            <img src="img/icons/close.svg" alt="Close" />
-          </button>
+    <section class="section profile">
+      <div class="container profile__container">
+        <div class="header profile__header">
+          <button class="header__btn header__back"></button>
+          <div class="header__title">Профиль</div>
+          <div class="header__buttons">
+            <button class="header__btn header__notifications"></button>
+            <button class="header__btn header__settings"></button>
+          </div>
         </div>
-  
+        <form action="">
+            <div class="profile__wrapper">
+                <div class="profile__photo">
+                  <img src="img/photos/photo-max-1.jpg" alt="">
+                  <button class="profile__photo__edit"></button>
+                </div>
+              <div class="profile__items">
+                <div class="profile__item">
+                  <img src="img/icons/ico-user.svg" alt="" class="profile__item__img" />
+                  <div class="profile__item__info">
+                    <label for="name" class="text__min profile__item__label">Имя</label>
+                    <input type="text" class="profile__item__input" value="Mark" name="name" disabled>
+                  </div>
+                  <button class="profile__item__edit"></button>
+                </div>
+                <div class="profile__item">
+                  <img src="img/icons/ico-file.svg" alt="" class="profile__item__img" />
+                  <div class="profile__item__info">
+                    <label for="gender" class="text__min profile__item__label">Пол</label>
+                    <input type="text" class="profile__item__input" value="Мужской" name="gender"  disabled>
+                  </div>
+                  <button class="profile__item__edit"></button>
+                </div>
+                <div class="profile__item">
+                  <img src="img/icons/ico-calendar.svg" alt="" class="profile__item__img" />
+                  <div class="profile__item__info">
+                    <label for="birthday" class="text__min profile__item__label">Дата рождения</label >
+                    <input type="text" class="profile__item__input" value="14.02.2000" name="birthday"  disabled>
+                    </div>
+                  <button class="profile__item__edit"></button>
+                </div>
+
+                
+                <div class="profile__item">
+                  <img src="img/icons/ico-phone.svg" alt="" class="profile__item__img" />
+                  <div class="profile__item__info">
+                    <label for="phone" class="text__min profile__item__label">Номер телефона</label >
+                    <input type="tel" class="profile__item__input" value="+357 5 447-45-03" name="phone"  disabled>
+                    </div>
+                  <button class="profile__item__edit"></button>
+                </div>
+                
+                <div class="profile__item">
+                  <img src="img/icons/ico-mail.svg" alt="" class="profile__item__img" />
+                  <div class="profile__item__info">
+                    <label for="email" class="text__min profile__item__label">Email</label >
+                    <input type="email" class="profile__item__input" value="marseliin@gmail.com" name="email" disabled>
+                    </div>
+                  <button class="profile__item__edit"></button>
+                </div>
+                
+                <div class="profile__item">
+                  <img src="img/icons/ico-nav.svg" alt="" class="profile__item__img" />
+                  <div class="profile__item__info">
+                    <label for="location" class="text__min profile__item__label">Местоположение</label >
+                    <input type="text" class="profile__item__input" value="Франция, г. Париж" name="location" disabled>
+                    </div>
+                  <button class="profile__item__edit"></button>
+                </div>
+                
+                <div class="profile__item">
+                  <img src="img/icons/ico-clipboard.svg" alt="" class="profile__item__img" />
+                  <div class="profile__item__info">
+                    <label for="birthday" class="text__min profile__item__label">О себе (до 100 знаков)</label >
+                    <textarea name="about" id="" cols="100%" rows="2" class="profile__item__input"  disabled>Ищу друзей, новые знакомства и впечатления
+                    </textarea>
+                    </div>
+                  <button class="profile__item__edit"></button>
+                </div>
+                
+                <div class="profile__item">
+                  <img src="img/icons/ico-award.svg" alt="" class="profile__item__img" />
+                  <div class="profile__item__info">
+                    <div class="text__min profile__item__label">Увлечения (1-5 пунктов)</div >
+                      <div class="profile__item__intereses">                    
+                        <span for="fantastic">Фантастика</span>                  
+                        <span for="football">Футбол</span>                    
+                        <span for="rock-music">Рок-музыка</span>                   
+                        <span for="books">Книги</span>                   
+                        <span for="cycling">Велоспорт</span>                      
+                    </div>
+                  </div>
+                  <button class="profile__item__edit"></button>
+                </div>
+              </div>
+            </div>
+        </form>
       </div>
     </section>
+    <div class="nav">
+      <div class="container">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__item__link nav__item__logo"></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__item__link nav__item__search"></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__item__link nav__item__likes"> </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__item__link nav__item__chats sign"></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__item__link nav__item__user active"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
