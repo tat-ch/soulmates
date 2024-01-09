@@ -60,7 +60,7 @@
   --secondary-light: #f0f0ff;
   --tertiary: #4e0c22;
   --tertiary-medium: #853636;
-  --tertiary-light: #dcaccf;
+  --tertiary-light: #6566ff;
   --online: #58d54d;
   --defolt-grad: linear-gradient(
     90deg,
@@ -241,7 +241,7 @@ textarea {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  max-width: 1502px;
+ max-width: 2502px;
   padding: 16px;
 
   margin: 0 auto;
@@ -1382,7 +1382,7 @@ height: calc(100vh - 233px);
   -ms-border-radius: 12px 12px 0 0;
   -o-border-radius: 12px 12px 0 0;
   position: fixed;
-  bottom: 84px;
+  bottom: 83px;
 
   width: 100%;
   left: 0;
@@ -1610,7 +1610,7 @@ height: calc(100vh - 233px);
 }
 
 .card__interesses li.joint {
-  background-color: var(--secondary-light);
+  background-color: var(--tertiary-light);
   color: var(--text);
 }
 .card__btns {
@@ -2296,7 +2296,7 @@ height: calc(100vh - 233px);
   }
 
   .slide {    
-    height: calc(100vh - 233px);
+    height: 660px;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
