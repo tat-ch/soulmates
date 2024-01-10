@@ -1907,16 +1907,45 @@ height: calc(100vh - 233px);
   height: 44px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 24px 24px;
+  background-size: 22px 22px;
   opacity: 1;
   cursor: pointer;
-  background-image: url(../img/icons/send-gray.svg);
 }
-.chat__input:active ~ .chat__btn,
-.chat__input:focus ~ .chat__btn {
+.chat__footer__btn {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  opacity: 0.8;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -ms-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+}
+.chat__footer__btn:hover {
+  opacity: 1;
+}
+.chat__footer__download {
+  background-image: url(../img/icons/plus-round-white.svg
+  );
+}
+.chat__footer__gif {
+  background-image: url(../img/icons/ico-gif.svg);
+  margin-right: 4px;
+}
+.chat__btn__send {
+  background-image: url(../img/icons/send-gray.svg);
+  margin-right: 0;
+}
+.chat__input:active ~ .chat__btn__send,
+.chat__input:focus ~ .chat__btn__send {
   background-image: url(../img/icons/send.svg);
 }
-
 
 
 @media (min-width: 370px) {
@@ -1966,6 +1995,10 @@ height: calc(100vh - 233px);
     height: 50px;
     margin-right: 12px;
   }
+  .chat__footer__btn {
+    width: 38px;
+    height: 38px;
+}
 }
 @media (min-width: 390px) {
   .main {
@@ -2048,6 +2081,13 @@ height: calc(100vh - 233px);
   .chats__item__name {
     max-width: 210px;
   }
+  .chat__footer__btn {
+    width: 44px;
+    height: 44px;
+}
+.chat__footer__gif {
+margin-right: 8px;
+}
 }
 @media (min-width: 460px) {
   .photos__item {
