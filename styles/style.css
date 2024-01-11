@@ -241,7 +241,7 @@ textarea {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  max-width: 2502px;
+  max-width: 2550px;
   padding: 16px;
 
   margin: 0 auto;
@@ -269,7 +269,7 @@ max-width: 448px;
 .main__container {
   justify-content: space-between;
   position: relative;
-  max-width: 1920px;
+  max-width: inherit;
   /*max-width: none;*/
   min-height: inherit;
   padding: 16px;
@@ -1045,6 +1045,11 @@ input[type="range"] {
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
   border-radius: 8px;
+  transition: border-color 500ms ease, color 500ms ease;
+  -webkit-transition: border-color 500ms ease, color 500ms ease;
+  -moz-transition: border-color 500ms ease, color 500ms ease;
+  -ms-transition: border-color 500ms ease, color 500ms ease;
+  -o-transition: border-color 500ms ease, color 500ms ease;
 }
 .relationship__label img {
   width: 24px;
